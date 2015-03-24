@@ -1,4 +1,7 @@
 class WelcomeController < ApplicationController
-  def Index
-  end
+	def Index
+		
+		@articles = Articles[]
+
+  	end
 end
